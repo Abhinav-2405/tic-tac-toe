@@ -1,0 +1,29 @@
+td{
+    border : 2px solid black;
+    width: 100px ;
+    height : 100px ;
+    text-align : center;
+    vertical-align : middle;
+    font-size : 70px;
+    cursor : pointer;
+  }
+  
+  table{
+     border-collapse: collapse;
+    position : absolute;
+    top : 50px;
+    margin-left : 155px;   
+  }
+  
+  table tr>td{
+    border-top: 0;
+  }
+  table tr:last-child td{
+    border-bottom: 0;
+  }
+  table tr td{
+    border-left: 0;
+  }
+  table tr td:last-of-type{
+    border-right : 0;
+  }
