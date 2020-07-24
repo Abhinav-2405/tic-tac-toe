@@ -59,15 +59,21 @@ function human(e){
     ai();
   }
   if (checkWin(humanMatrix)){
-    alert('You win!!');  
+    setTimeout(() =>
+      alert("You win!!")
+      ,10); 
     return;  
   }
   else if (checkWin(aiMatrix)){
-    alert('AI wins!!');
+    setTimeout(() =>
+      alert("AI wins!!")
+      ,10);
     return;
   }
   else if(!checkOpenSpot()){
-    alert("It\'s a tie!!");
+    setTimeout(() =>
+      alert("It's a tie!!")
+      ,10); 
     return;
   }
 }
